@@ -1,2 +1,29 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<% content_for :head do %>
+	<!-- Script for adding typewirter effect  - Customization at: https://github.com/mattboldt/typed.js/#customization -->
+	<script>
+	    $(function(){
+	        $(".typed").typed({
+	            stringsElement: $('#typed-strings'),
+	            typeSpeed: 200,
+	            loop: true,
+	            backDelay: 4000
+	        });
+	    });
+	</script>
+<% end %>
+
+<!-- For SEO Purposes -->
+<div id="typed-strings">
+    <p>^500 Mohamed Shibl.</p>
+    <p>^500 a Web Developer.</p>
+    <p>^500 a Front-End Developer.</p>
+    <p>^500 a Back-End Developer.</p>
+    <p>^500 a Full Stack Developer.</p>
+    <p>^500 Mohamed Shibl.</p>
+</div>
+
+<hr>
+<div id="typewriter-header">
+	<span>I'm&nbsp;</span> <span class="typed"> </span>
+</div>
+<hr>

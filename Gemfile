@@ -47,3 +47,4 @@ end
 
 
 gem 'bootstrap-sass', '3.3.7'
+gem 'cloudinary', '1.2.2'

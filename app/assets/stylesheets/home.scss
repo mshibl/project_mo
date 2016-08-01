@@ -3,6 +3,10 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+.tw-hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 .typed-cursor{
     opacity: 1;
@@ -97,6 +101,20 @@ hr {
 	align-content: space-around;
 }
 
+.project-title {
+    font-size: 16px;
+    text-align: center;
+    /*font-family: open sans condensed;*/
+    /*font-weight: bolder;*/
+}
+
+.front p {
+	margin: 10px;
+	font-size: 12px;
+	font-weight: 200;
+}
+
+
 .card-container {
     -webkit-perspective: 500px;
             perspective: 500px;
@@ -143,7 +161,7 @@ hr {
 
 .card {
 	width: 250px;
-	height: 250px;
+	height: 330px;
 	margin: 35px;
 }
 
@@ -155,6 +173,21 @@ hr {
   bottom: 0;
 }
 
-img {
+.front img {
   display: block;
+  border-bottom: 1px solid #ee4433;
+}
+
+.front h1 , .front hr{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.front p{
+	text-align: center;
+	color: #347ab7;
+}
+
+.back p{
+	padding: 10px;
 }

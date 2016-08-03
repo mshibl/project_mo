@@ -6,10 +6,16 @@
 		<h1 class="project-title"><%= title %></h1>
 	  </div>
 	  <div class="back">
-	  <ul style="list-style-type:none">
 	  	<ul style="list-style-type:none">
 		    <% links.each do |key, value| %>
-  				<li> <%= fa_icon "link" %> <%= link_to key, value, target: "_blank" %> </li>
+  				<li>
+  					<% if key == "Github" %>
+  						<%= fa_icon "github" %>
+  					<% else %>
+  						<%= fa_icon "link" %>
+  					<% end %>
+  					<%= link_to key, value, target: "_blank" %> 
+  				</li>
   			<% end %>
 		</ul>
 	  </div>

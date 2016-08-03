@@ -48,3 +48,7 @@ end
 
 gem 'bootstrap-sass', '3.3.7'
 gem 'cloudinary', '1.2.2'
+gem 'font-awesome-rails', '4.6.3.1'
+
+
+

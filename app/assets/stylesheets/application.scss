@@ -51,9 +51,9 @@ $background-color: 	#fcfcfc;
 .corner-ribbon.top-right{
   top: 25px;
   right: -50px;
-  left: auto;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+  /*left: auto;*/
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 body {
@@ -78,4 +78,13 @@ body {
 		font-size: 14px;
 		transform: translateY(35%);
 	}
+}
+
+.follow-buttons-bar {
+  background: #353535;
+  width: 10px;
+  height: 10px;
+  position: fixed;
+  right: 0;
+  top: 300px;
 }

@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require typed 
+//= require getsitecontrol
 //= require_tree .

@@ -7,10 +7,13 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <%= yield :head %>
+
 </head>
 <body>
 
 			<div class="corner-ribbon top-right sticky blue">Under Construction!</div>
+
+<!--       <div class="follow-buttons-bar"> </div> -->
 
     <!--Nav Bar-->
         <nav class="navbar">
@@ -38,16 +41,5 @@
 
 <%= yield %>
 
-    <!--footer-->
-        <footer class="footer">
-		    <div id="footer-social">
-		        <a href="https://twitter.com/shibl_" target="_blank">  <i class="fa fa-twitter fa-2x" aria-hidden="true"></i> </a>
-		    
-		        <a href="https://www.linkedin.com/in/shibl" target="_blank">   <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i> </a>
-
-		        <a href="https://github.com/mshibl" target="_blank"> <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-
-		    </div>
-		</footer>
 </body>
 </html>

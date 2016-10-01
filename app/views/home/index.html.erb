@@ -56,7 +56,7 @@
 		title: "GitScout", 
 		front_text: "Web App | React | MobX",
 		links: {
-			"Friend-Trends.com" => "http://gitscout.herokuapp.com/",
+			"GitScout.herokuapp.com" => "http://gitscout.herokuapp.com/",
 			"Github" => "https://github.com/mshibl/GitScout"},
 		back_text: "card_back"
 	%>
@@ -66,9 +66,18 @@
 		title: "DevStats", 
 		front_text: "Web App | React | Redux",
 		links: {
-			"Friend-Trends.com" => "http://alldevstats.herokuapp.com/",
+			"allDevStats.herokuapp.com" => "http://alldevstats.herokuapp.com/",
 			"Github" => "https://github.com/mshibl/TechStats-Redux-App"},
 		back_text: "card_back"
+	%>
+
+	<%= render "card", 
+		project_image: "lookmain.png", 
+		title: "Look App", 
+		front_text: "Web App | React | Redux",
+		links: {
+			"Joinlook.com Sample Profile" => "http://www.joinlook.com/@mohamed-shibl/"},
+		back_text: ""	
 	%>
 
 	<%= render "card", 
@@ -79,15 +88,6 @@
 			"Friend-Trends.com" => "http://www.friend-trends.com/",
 			"Github" => "https://github.com/Sarah-Alsinan/FriendTrends"},
 		back_text: "card_back"
-	%>
-
-	<%= render "card", 
-		project_image: "Look_jeflte.png", 
-		title: "Look App", 
-		front_text: "Web App | React | Redux",
-		links: {
-			"Joinlook.com Sample Profile" => "http://www.joinlook.com/@mohamed-shibl/"},
-		back_text: ""	
 	%>
 
 	<%= render "card", 

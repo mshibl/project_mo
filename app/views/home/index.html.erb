@@ -52,6 +52,26 @@
 
 <div class="projects">
 	<%= render "card", 
+		project_image: "gitscout.png", 
+		title: "GitScout", 
+		front_text: "Web App | React | MobX",
+		links: {
+			"Friend-Trends.com" => "http://gitscout.herokuapp.com/",
+			"Github" => "https://github.com/mshibl/GitScout"},
+		back_text: "card_back"
+	%>
+
+	<%= render "card", 
+		project_image: "devstats.png", 
+		title: "FriendTrends", 
+		front_text: "Web App | React | Redux",
+		links: {
+			"Friend-Trends.com" => "http://alldevstats.herokuapp.com/",
+			"Github" => "https://github.com/mshibl/TechStats-Redux-App"},
+		back_text: "card_back"
+	%>
+
+	<%= render "card", 
 		project_image: "Friend_Trends_iwukue.png", 
 		title: "FriendTrends", 
 		front_text: "Web App | Ruby on Rails | Redis",
